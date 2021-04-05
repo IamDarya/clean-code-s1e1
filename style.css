@@ -16,7 +16,8 @@ body {
   width: 100%;
 }
 
-.visual-part-and-details .link-to-eisenhower-matrix {
+.visual-part-and-details 
+.link-to-eisenhower-matrix {
   font-family: fantasy, cursive;
 }
 
@@ -44,7 +45,8 @@ body {
   display: flex;
 }
 
-#block-incomplete-tasks,#block-completed-tasks {
+#block-incomplete-tasks,
+#block-completed-tasks {
   margin: 0;
   padding: 0px;
 }
@@ -139,14 +141,16 @@ h3,
   margin: 0 10px;
 }
 
-.list-of-tasks > .label {
+.list-of-tasks > 
+.label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.list-of-tasks >    .input-type-text {
+.list-of-tasks > 
+.input-type-text {
   width: 226px;
 }
 
@@ -165,21 +169,27 @@ h3,
 }
 
 /* Completed */
-#block-completed-tasks .label {
+#block-completed-tasks 
+.label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-.completed-and-incomleted-tasks .list-of-tasks .input-type-text {
+.completed-and-incomleted-tasks 
+.list-of-tasks 
+.input-type-text {
   display: none;
 }
 
-.completed-and-incomleted-tasks .edit-mode .input-type-text {
+.completed-and-incomleted-tasks 
+.edit-mode 
+.input-type-text {
   display: inline-block;
   width: 224px;
 }
 
-.completed-and-incomleted-tasks .edit-mode .label {
+.completed-and-incomleted-tasks 
+.edit-mode .label {
   display: none;
 }
