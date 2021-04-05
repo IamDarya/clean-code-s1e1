@@ -4,49 +4,62 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .visual-part-and-details {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .visual-part-and-details-img{
   width: 100%;
 }
+
 .visual-part-and-details .link-to-eisenhower-matrix {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.visual-part-and-details { text-align: center;
+
+  .visual-part-and-details { 
+    text-align: center;
+  }
+
 }
-}
+
 .main-functionality {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task-elem {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
+
 .input-field-for-new-task {
   display: flex;
 }
+
 #block-incomplete-tasks,#block-completed-tasks {
   margin:0;
   padding: 0px;
 }
+
 .list-of-tasks, h3 {
   list-style:none;
 }
+
 .task-elem,
 .add-btn,
 .edit-btn,
 .delete-btn{
     outline:none;
 }
+
 .add-btn,
 .edit-btn,
 .delete-btn {
@@ -58,10 +71,12 @@ body {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .edit-btn:hover,
 .delete-btn:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 h3,
 .label[for="new-task"] {
@@ -73,6 +88,7 @@ h3,
   margin: 0;
   text-transform: uppercase;
 }
+
 .task-elem[type="text"] {
   margin: 0;
   font-size: 18px;
@@ -85,6 +101,7 @@ h3,
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .task-elem[type="text"]:focus {
   color: #333;
 }
@@ -94,9 +111,11 @@ h3,
   display: block;
   margin: 0 0 20px;
 }
+
 #new-task-name {
   width: 318px;
 }
+
 .add-btn:hover {
   color: #0fc57c;
 }
@@ -111,6 +130,7 @@ h3,
   justify-content: space-between;
   align-items: center;
 }
+
 .list-of-tasks {
   vertical-align: middle;
 }
@@ -118,23 +138,28 @@ h3,
 .checkbox {
   margin: 0 10px;
 }
+
 .list-of-tasks > .label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .list-of-tasks >    .input-type-text {
   width: 226px
 }
+
 .delete-btn:hover {
   color: #cf2323;
 }
+
 .delete-btn-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .delete-btn-img:hover {
   transform: rotateZ(0);
 }
